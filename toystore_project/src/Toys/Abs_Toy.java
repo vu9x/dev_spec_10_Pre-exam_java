@@ -1,3 +1,5 @@
+package Toys;
+
 public abstract class Abs_Toy implements Comparable<Abs_Toy>{
     private int id;
     private String name;
