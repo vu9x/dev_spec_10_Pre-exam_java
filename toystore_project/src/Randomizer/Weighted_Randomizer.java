@@ -26,7 +26,8 @@ public class Weighted_Randomizer<T extends Toy>{
     }
 
     public T getRandom() {
-        double r = rand.nextDouble() * accumulatedWeight;
+//        double r = rand.nextDouble() * accumulatedWeight;
+        double r = rand.nextDouble() * 10.;
 
         for (Entry entry: entries) {
             if (entry.accumulatedWeight >= r) {
@@ -34,5 +35,6 @@ public class Weighted_Randomizer<T extends Toy>{
             }
         }
         return null; //should only happen when there are no entries
+
     }
 }
