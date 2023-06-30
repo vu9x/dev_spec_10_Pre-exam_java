@@ -43,19 +43,5 @@ public class Main {
             throw new RuntimeException(e);
         }
 
-
-//        double dragon_counter = 0;
-//        double ship_counter = 0;
-//        double sword_counter = 0;
-//
-//        for (Toys.Toy item: q) {
-//            if (item.getId() == 1){ dragon_counter += 1;}
-//            else if (item.getId() == 2) { ship_counter += 1;}
-//            else if (item.getId() == 3) { sword_counter += 1;}
-//            else System.out.println("Ошибка");
-//        }
-
-//        System.out.printf("Dragons = %.2f, Ships = %.2f, Swords = %.2f", dragon_counter, ship_counter, sword_counter);
-
     }
 }
